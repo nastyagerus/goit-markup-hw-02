@@ -98,11 +98,15 @@ button {
 /* =========================/HEADER==================================== */
 
 /* =========================HERO==================================== */
-.hero-title {
+
+.hero {
+  background-color: var(--title-color-theme-light);
+}
+.hero > .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  /* color: var(--title-color-theme-dark); */
+  color: var(--title-color-theme-dark);
 }
 
 .modal-btn {
@@ -162,10 +166,21 @@ button {
   color: var(--title-color-theme-dark);
   background-color: var(--accent-color);
 }
+
+.team {
+  background: var(--background-button-color-theme-light);
+}
+
+.doing-item {
+  background: var(--title-color-theme-dark);
+}
 /* =========================/MAIN==================================== */
 
 /* =========================FOOTER==================================== */
 
+.footer {
+  background: var(--title-color-theme-light);
+}
 .footer-logo {
   font-family: var(--secondary-font);
   font-weight: 800;
